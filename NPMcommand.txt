@@ -1,0 +1,6 @@
+npm init
+npm i express express-validator mongoose config bcryptjs jsonwebtoken shortid
+npm i -D nodemon concurrently cross-env
+npx create-react-app client
+for directory client: npm i sass normalize.css react-router-dom
+git init / git add . /

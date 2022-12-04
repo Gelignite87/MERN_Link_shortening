@@ -1,0 +1,21 @@
+@import '~normalize.css'
+@import '~materialize-css'
+
+input.yellow-input
+    border-bottom: 1px solid #bbbbbb!important
+    box-shadow: 0 1px 0 0 #fff!important
+    &:focus
+        border-bottom: 1px solid #ffeb3b!important
+        box-shadow: 0 1px 0 0 #ffeb3b!important
+
+.input-field > label:not(.label-icon)
+    transform: translateY(-14px)
+    color: #555555
+    &.active
+        transform: translateY(-14px) scale(1)
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label
+    color: #ffeb3b
+
+input[type=password]:not(.browser-default):focus:not([readonly]) + label
+    color: #ef5350
