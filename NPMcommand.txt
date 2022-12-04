@@ -3,4 +3,4 @@ npm i express express-validator mongoose config bcryptjs jsonwebtoken shortid
 npm i -D nodemon concurrently cross-env
 npx create-react-app client
 for directory client: npm i sass normalize.css react-router-dom
-git init / git add . /
+git init / git add . / git commit -m "initial" / git remote add origin https://github.com/Gelignite87/MERN_Link_shortening.git / git push -u origin master
