@@ -1,6 +1,6 @@
 {
     "port": 5000,
     "jwtSecret": "very secret key",
-    "mongoUri": "mongodb+srv://FDA:Joker!87@cluster0.hdrscnv.mongodb.net/app?retryWrites=true&w=majority",
+    "mongoUri": "mongodb+srv://FDA:Joker!87@cluster0.hdrscnv.mongodb.net/app_mern?retryWrites=true&w=majority",
     "baseUrl": "http://localhost:5000"
 }

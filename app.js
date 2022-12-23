@@ -19,7 +19,7 @@ const PORT = config.get('port') || 5000
 
 async function start() { 
     try {
-        // "mongoUri": "mongodb+srv://FDA:Joker!87@cluster0.hdrscnv.mongodb.net/app?retryWrites=true&w=majority"
+        // "mongoUri": "mongodb+srv://FDA:Joker!87@cluster0.hdrscnv.mongodb.net/app_mern?retryWrites=true&w=majority"
         // "mongoUri": "mongodb://localhost:27017/app_mern"
         await mongoose.connect(config.get('mongoUri'), {useNewUrlParser: true, useUnifiedTopology: true})
         app.listen(PORT, () => console.log(`App has been started on port ${PORT}...`))
